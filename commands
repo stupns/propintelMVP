@@ -1,0 +1,8 @@
+docker-compose up -d --build
+
+
+docker-compose exec backend bash
+docker-compose exec backend python manage.py import_properties
+
+
+https://console.apify.com/actors/fdbXYQHBkaccpmRtX/runs/8tgyfRcC3kQblc2XH#integrations

@@ -1,0 +1,5 @@
+Django>=5.0
+pymongo
+python-dotenv
+Pillow>=11.2
+djangorestframework>=3.14

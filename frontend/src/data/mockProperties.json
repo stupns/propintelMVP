@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/images/property_1.jpg",
+    "price": "$850,000",
+    "location": "San Francisco, CA",
+    "summary": "Modern 3-bed condo with city view",
+    "features": ["3 Bed", "2 Bath", "1,450 sqft", "Balcony", "Parking"]
+  },
+  {
+    "id": 2,
+    "image": "/images/property_4.jpg",
+    "price": "$1,200,000",
+    "location": "New York, NY",
+    "summary": "Luxury loft in Manhattan with rooftop access",
+    "features": ["2 Bed", "2 Bath", "1,200 sqft", "Rooftop", "Doorman"]
+  },
+  {
+    "id": 3,
+    "image": "/images/property_6.jpg",
+    "price": "$620,000",
+    "location": "Austin, TX",
+    "summary": "Cozy single-family home in quiet suburb",
+    "features": ["3 Bed", "2 Bath", "1,800 sqft", "Garage", "Backyard"]
+  }
+]
