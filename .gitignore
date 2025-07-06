@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+build/
+dist/
+.next/
+out/
+
+# Mac system files
+.DS_Store
+
+# dotenv
+.env
+.env.*
+
+# Editor configs
+.idea/
+.vscode/
+
+# Python __pycache__, virtual envs, compiled files
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django specific
+*.pot
+*.pyc
+media/
+staticfiles/
+db.sqlite3
+
+# Docker
+*.pid
+*.seed
+*.bak
+
+# OS junk
+Thumbs.db
