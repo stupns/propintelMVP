@@ -25,8 +25,8 @@ const ChatConsultant = () => {
 
   // Options for each step (by index)
   const optionsPerStep = {
-    0: ['Turkey', 'Cyprus'],
-    1: ['Kyrenia (Girne)', 'Esentepe', 'Lapta'],
+    0: ['Cyprus'],
+    1: ['Kyrenia (Girne)', 'Esentepe'],
     2: ['Villa', 'Apartment'],
     4: ['$0–$250,000', '$250,001–$750,000', '$750,001 and above'],
   };
