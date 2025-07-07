@@ -24,7 +24,6 @@
       "Beach"
     ],
     "price": "950000",
-    "long_description": "<h3>Overview</h3>\n<p>Located in the exclusive Bellapais area, this high-end development features only 12 bespoke Type A villas — each offering:</p>\n<ul>\n  <li>4 en-suite bedrooms, 4 bathrooms, and 252 m² of elegant living space</li>\n  <li>Sits on a generous 500 m² plot plus an additional 200 m² landscaped area</li>\n</ul>\n<h3>Unique Selling Points</h3>\n<ul>\n  <li>Panoramic Sea & Mountain Views</li>\n  <li>Private Outdoor Oasis with cinema, BBQ, garden, pool</li>\n  <li>Smart Infrastructure with gated entry and garage</li>\n</ul>\n<h3>Interior Features</h3>\n<ul>\n  <li>Premium finishes: 60x120 tiles, laminate bedrooms</li>\n  <li>Double-sided fireplace, LED lighting, smart wiring</li>\n  <li>Central VRF HVAC, underfloor heating, solar system</li>\n</ul>\n<h3>Energy & Utilities</h3>\n<ul>\n  <li>Full insulation, 8m³ water tank, solar booster</li>\n  <li>Backup generator, EV-charging ready</li>\n</ul>\n<h3>Extras & Location</h3>\n<ul>\n  <li>Optional basement (gym, cinema, cellar)</li>\n  <li>2–5 min from Bellapais Abbey, Kyrenia Harbour</li>\n  <li>~40 min Ercan / ~75 min Larnaca Airport</li>\n</ul>",
     "long_description_blocks": [
       {
         "title": "Overview",
@@ -64,8 +63,7 @@
           "~40 min Ercan / ~75 min Larnaca Airport"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 2,
@@ -131,8 +129,7 @@
           "~40 min Ercan / ~75 min Larnaca Airport"
         ]
       }
-    ],
-   "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 20,
@@ -163,8 +160,7 @@
           "Available: C1-5 to C1-8 – Contact for latest price"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 21,
@@ -196,8 +192,7 @@
           "Available: D1-1 / D1-4 – Contact for price; D1-2 / D1-3 – From £160,000 with furniture"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 22,
@@ -228,8 +223,7 @@
           "Available: D1-5 to D1-8 – Contact for price"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 23,
@@ -260,8 +254,7 @@
           "Available: A1-1 / A1-2 – Contact for price"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 24,
@@ -292,8 +285,7 @@
           "Available: A1-3 / A1-4 – Contact for price"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 25,
@@ -324,8 +316,7 @@
           "Available: B1-1 Garden – Contact for price; B1-2 Garden – £295,000, includes furniture, white goods"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 26,
@@ -357,8 +348,7 @@
           "Available: B1-3 / B1-4 Penthouse – Contact for price"
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 4,
@@ -375,8 +365,7 @@
       "Parking"
     ],
     "price": "75000000",
-    "long_description": "Space area according account. Born our truth say sing under. Director begin man among every evidence fast.",
-    "document": "/docs/PriceDox.pdf"
+    "long_description": "Space area according account. Born our truth say sing under. Director begin man among every evidence fast."
   },
   {
     "id": 5,
@@ -422,29 +411,7 @@
           "Pricing documents available for download."
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
-  },
-  {
-    "id": 6,
-    "images": [
-      "/images/villa_A/property_4.jpg",
-      "/images/villa_B/property_6.jpg",
-      "/images/villa_B/property_7.jpg",
-      "/images/villa_B/property_8.jpg",
-      "/images/villa_B/property_8.jpg"
-    ],
-    "country": "Cyprus",
-    "city": "Kyrenia (Girne)",
-    "property_type": "Villa",
-    "amenities": [
-      "Swimming Pool",
-      "Parking",
-      "24/7 Security"
-    ],
-    "price": "850000",
-    "long_description": "Agent woman detail drug coach have event. Suggest leg occur common lot dream case. Him herself the trip audience garden. Most grow should any seat find learn. Hold indeed executive.",
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 7,
@@ -491,8 +458,7 @@
           "Pricing documents available for download."
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 8,
@@ -510,8 +476,7 @@
       "Swimming Pool"
     ],
     "price": "182000",
-    "long_description": "Southern our fish activity yeah compare fish. Total know subject. Police guess face thank seek.",
-    "document": "/docs/PriceDox.pdf"
+    "long_description": "Southern our fish activity yeah compare fish. Total know subject. Police guess face thank seek."
   },
   {
     "id": 9,
@@ -528,8 +493,7 @@
       "Beach"
     ],
     "price": "750001",
-    "long_description": "Someone those never father interview. Magazine environment white large. Event film week trade.",
-    "document": "/docs/PriceDox.pdf"
+    "long_description": "Someone those never father interview. Magazine environment white large. Event film week trade."
   },
   {
     "id": 10,
@@ -578,8 +542,7 @@
           "Pricing documents available for download."
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 11,
@@ -595,8 +558,7 @@
       "Parking"
     ],
     "price": "555000",
-    "long_description": "Husband clearly start. His citizen yeah before now return nearly car. Available school term thank cell. Night yet bar man star. As environment machine occur week tax. School quickly more.",
-    "document": "/docs/PriceDox.pdf"
+    "long_description": "Husband clearly start. His citizen yeah before now return nearly car. Available school term thank cell. Night yet bar man star. As environment machine occur week tax. School quickly more."
   },
   {
     "id": 12,
@@ -614,8 +576,7 @@
       "Parking"
     ],
     "price": "750001",
-    "long_description": "Issue write report federal cultural environment. Foot scene meeting cultural pretty. Office someone not recent.",
-    "document": "/docs/PriceDox.pdf"
+    "long_description": "Issue write report federal cultural environment. Foot scene meeting cultural pretty. Office someone not recent."
   },
   {
     "id": 13,
@@ -663,8 +624,7 @@
           "Pricing documents available for download."
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 14,
@@ -710,8 +670,7 @@
           "Pricing documents available for download."
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   },
   {
     "id": 15,
@@ -759,7 +718,6 @@
           "Pricing documents available for download."
         ]
       }
-    ],
-    "document": "/docs/PriceDox.pdf"
+    ]
   }
 ]

@@ -89,14 +89,6 @@ const SuggestedPropertiesSection = ({properties = []}) => {
                                     />
                                 ) : null}
                                 <div className="flex flex-col space-y-2">
-                                    <a
-                                        href={property.document}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="text-brand-seafoam underline hover:text-brand-mint"
-                                    >
-                                        View Pricing Document
-                                    </a>
                                     <button
                                         onClick={() => {
                                             setSelectedProperty(property);
