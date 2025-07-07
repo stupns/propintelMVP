@@ -20,7 +20,7 @@ const LandingPage = () => {
           <img
             src="/images/logo-brand.png"
             alt="Logo"
-            className="w-[50%] h-[50%]  mb-6"
+            className="w-3/4 h-auto mb-6 sm:w-1/2"
           />
           {/*<p*/}
           {/*  className="italic text-center text-white/70 text-lg md:text-xl font-light mb-10"*/}
