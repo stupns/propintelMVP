@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {EffectCoverflow, Pagination} from 'swiper/modules';
 import 'swiper/css';
@@ -9,6 +9,7 @@ const SuggestedPropertiesSection = ({properties = []}) => {
     const [activeIndex, setActiveIndex] = useState(null);
     const [showModal, setShowModal] = useState(false);
     const [selectedProperty, setSelectedProperty] = useState(null);
+    const [fullscreenImage, setFullscreenImage] = useState(null);
     if (!Array.isArray(properties)) return null;
 
     return (
@@ -52,7 +53,7 @@ const SuggestedPropertiesSection = ({properties = []}) => {
                                                     src={img}
                                                     alt={`Image ${idx + 1}`}
                                                     className="w-64 h-40 object-cover rounded shadow-lg border border-brand-seafoam cursor-pointer"
-                                                    onClick={() => window.open(img, '_blank')}
+                                                    onClick={() => setFullscreenImage(img)}
                                                 />
                                             ))
                                         ) : (
@@ -117,14 +118,18 @@ const SuggestedPropertiesSection = ({properties = []}) => {
                             <div
                                 className="bg-rich-black rounded-2xl overflow-hidden shadow-xl transition-all duration-300 hover:scale-[1.03] flex flex-col">
                                 <img
-                                    src={property.images?.[0]} alt="Primary property image"
-                                    alt={property.title || property.summary || 'Property'}
+                                    src={property.images?.[0]} alt={property.title || property.summary || 'Property'}
                                     className="w-full h-56 object-cover"
                                 />
                                 <div className="px-6 py-5 text-center space-y-2">
                                     <p className="text-emerald-400 text-xl font-semibold tracking-tight">
                                         £{property.price}
                                     </p>
+                                    {property.property_type === "Apartment" && property.long_description_blocks?.[0]?.title && (
+                                      <h3 className="text-brand-seafoam text-lg font-semibold mt-1">
+                                        {property.long_description_blocks[0].title}
+                                      </h3>
+                                    )}
                                     <p className="text-gold-muted text-base font-medium">
                                         {property.city || '—'}, {property.country || '—'}
                                     </p>
@@ -150,56 +155,42 @@ const SuggestedPropertiesSection = ({properties = []}) => {
             )}
 
             {showModal && selectedProperty && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md text-black">
-                        <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
-                        <p className="mb-2">📞 Call us: <a href="tel:+905488904444"
-                                                          className="text-brand-mint font-medium">+90 548 890 44 44</a>
-                        </p>
-                        <p className="mb-4">
-                            Or email us at <a href="mailto:info@theboulevardvillas.com"
-                                              className="text-brand-mint font-medium">info@theboulevardvillas.com</a> with
-                            the following:
-                        </p>
-                        <pre className="text-sm bg-gray-100 p-3 rounded whitespace-pre-wrap">
-The client is interested in:
-
-Property: {selectedProperty.summary || selectedProperty.title}
-                            City: {selectedProperty.city}
-                            Type: {selectedProperty.property_type}
-                            Selected amenities: {selectedProperty.amenities?.join(', ')}
-
-                            Documents have been provided to the client
-
-The client wishes to get in touch
-            </pre>
-                        <div className="mt-4 flex justify-between">
-                            <button
-                                onClick={() => {
-                                    const mailBody = `The client is interested in:
-
-Property: ${selectedProperty.summary || selectedProperty.title}
-City: ${selectedProperty.city}
-Type: ${selectedProperty.property_type}
-Selected amenities: ${selectedProperty.amenities?.join(', ')}
-
-Documents have been provided to the client
-
-The client wishes to get in touch`;
-                                    window.location.href = `mailto:info@theboulevardvillas.com?subject=Client Interest&body=${encodeURIComponent(mailBody)}`;
-                                }}
-                                className="px-4 py-2 bg-brand-seafoam hover:bg-brand-mint text-black font-semibold rounded transition"
-                            >
-                                Send Email
-                            </button>
-                            <button
-                                onClick={() => setShowModal(false)}
-                                className="px-4 py-2 bg-brand-mint hover:bg-brand-seafoam text-black font-semibold rounded transition"
-                            >
-                                Close
-                            </button>
-                        </div>
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+                  <div className="bg-rich-black text-white rounded-2xl border-2 p-6 w-full max-w-md shadow-lg border-gradient-to-r from-amber-200 via-green-200 to-emerald-400">
+                    <h3 className="text-xl font-semibold mb-4 text-brand-mint">Get in Touch</h3>
+                    <p className="mb-2">📞 Call us: <a href="tel:+905488904444" className="text-brand-seafoam font-medium">+90 548 890 44 44</a></p>
+                    <p className="mb-4">
+                      Or email us at <a href="mailto:info@theboulevardvillas.com" className="text-brand-seafoam font-medium">info@theboulevardvillas.com</a> with the following:
+                    </p>
+                    <div className="bg-black bg-opacity-20 rounded-md p-4 mb-4 text-sm whitespace-pre-wrap leading-relaxed border border-brand-seafoam">
+                      <p className="mb-2">The client is interested in:</p>
+                      <p className="mb-2">
+                        <strong>Property:</strong> {selectedProperty.summary || selectedProperty.title}<br />
+                        <strong>City:</strong> {selectedProperty.city}<br />
+                        <strong>Type:</strong> {selectedProperty.property_type}<br />
+                        <strong>Selected amenities:</strong> {selectedProperty.amenities?.join(', ')}
+                      </p>
+                      <p className="mb-2">Documents have been provided to the client.</p>
+                      <p>The client wishes to get in touch.</p>
                     </div>
+                    <div className="mt-4 flex justify-between">
+                      <button
+                        onClick={() => {
+                          const mailBody = `The client is interested in:\n\nProperty: ${selectedProperty.summary || selectedProperty.title}\nCity: ${selectedProperty.city}\nType: ${selectedProperty.property_type}\nSelected amenities: ${selectedProperty.amenities?.join(', ')}\n\nDocuments have been provided to the client\n\nThe client wishes to get in touch`;
+                          window.location.href = `mailto:info@theboulevardvillas.com?subject=Client Interest&body=${encodeURIComponent(mailBody)}`;
+                        }}
+                        className="px-4 py-2 bg-brand-seafoam hover:bg-brand-mint text-black font-semibold rounded transition"
+                      >
+                        Send Email
+                      </button>
+                      <button
+                        onClick={() => setShowModal(false)}
+                        className="px-4 py-2 bg-brand-mint hover:bg-brand-seafoam text-black font-semibold rounded transition"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
                 </div>
             )}
 
@@ -209,6 +200,19 @@ The client wishes to get in touch`;
                     opacity: 0 !important;
                 }
             `}</style>
+
+            {fullscreenImage && (
+              <div
+                className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center"
+                onClick={() => setFullscreenImage(null)}
+              >
+                <img
+                  src={fullscreenImage}
+                  alt="Fullscreen"
+                  className="max-w-full max-h-full rounded-lg shadow-xl"
+                />
+              </div>
+            )}
         </div>
     );
 };

@@ -74,10 +74,7 @@
       "/images/villa_B/property_2.jpg",
       "/images/villa_B/property_3.jpg",
       "/images/villa_B/property_4.jpg",
-      "/images/villa_B/property_5.jpg",
       "/images/villa_B/property_6.jpg",
-      "/images/villa_B/property_7.jpg",
-      "/images/villa_B/property_8.jpg",
       "/images/villa_B/property_8.jpg"
     ],
     "country": "Cyprus",
@@ -138,7 +135,7 @@
    "document": "/docs/PriceDox.pdf"
   },
   {
-    "id": 3,
+    "id": 20,
     "images": [
       "/images/apartment_3/property_1.jpg",
       "/images/apartment_3/property_2.jpg",
@@ -156,36 +153,208 @@
       "Parking",
       "Beach"
     ],
-    "price": "150000-1000000",
+    "price": "185000-210000",
     "long_description_blocks": [
       {
-        "title": "Overview",
+        "title": "Type C – 1+1 Penthouse Loft + Roof Terrace",
         "points": [
-          "A modern apartment unit located in Esentepe, designed for convenience and leisure.",
-          "Offers flexibility for investment or personal living with open-concept interior."
+          "Duplex penthouse with rooftop terrace, combining design, privacy, and luxury.",
+          "Developer usage listed as 108 m²; premium version offers 126 m² with extended terrace.",
+          "Available: C1-5 to C1-8 – Contact for latest price"
         ]
-      },
+      }
+    ],
+    "document": "/docs/PriceDox.pdf"
+  },
+  {
+    "id": 21,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "160000-180000",
+    "long_description_blocks": [
       {
-        "title": "Property Details",
+        "title": "Type D – 1+1 First Floor Apartments",
         "points": [
-          "1–2 bedrooms options with stylish bathrooms",
-          "Open kitchen + living area, smart wiring and lighting",
-          "Panoramic balcony or terrace for outdoor enjoyment"
+          "Spacious 1-bedroom units ideal for couples or investment.",
+          "Left unit: 104 m² (28 m² living room, 16 m² bedroom, 5 m² bath, 3 m² balcony)",
+          "Right unit: 113 m² (37 m² living room, 14 m² bedroom, 4 m² bath, 8 m² balcony)",
+          "Available: D1-1 / D1-4 – Contact for price; D1-2 / D1-3 – From £160,000 with furniture"
         ]
-      },
+      }
+    ],
+    "document": "/docs/PriceDox.pdf"
+  },
+  {
+    "id": 22,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "170000-190000",
+    "long_description_blocks": [
       {
-        "title": "Community Features",
+        "title": "Type D – 1+1 Roof Terrace",
         "points": [
-          "Access to beach and swimming pool",
-          "24/7 on-site security",
-          "Fitness studio, parking and eFoil Activity Center nearby"
+          "Private rooftop units perfect for outdoor entertaining.",
+          "Terrace sizes: 50 m² and 53 m²",
+          "Available: D1-5 to D1-8 – Contact for price"
         ]
-      },
+      }
+    ],
+    "document": "/docs/PriceDox.pdf"
+  },
+  {
+    "id": 23,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "155000-175000",
+    "long_description_blocks": [
       {
-        "title": "Pricing & Extras",
+        "title": "Type A – 2+1 Garden Floor",
         "points": [
-          "Flexible pricing: from £150,000 up to £1,000,000 depending on unit",
-          "Documents and additional specs available upon request"
+          "Ground floor with 2 bedrooms, large terrace — ideal for families or investment.",
+          "Total usage: 86.4 m² (80 m² closed area)",
+          "Available: A1-1 / A1-2 – Contact for price"
+        ]
+      }
+    ],
+    "document": "/docs/PriceDox.pdf"
+  },
+  {
+    "id": 24,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "230000-260000",
+    "long_description_blocks": [
+      {
+        "title": "Type A – 2+1 Penthouse with Roof Terrace",
+        "points": [
+          "Luxury penthouse with BBQ area and jacuzzi-ready roof terrace.",
+          "Total usage: 164.4 m² (81.5 m² closed area)",
+          "Available: A1-3 / A1-4 – Contact for price"
+        ]
+      }
+    ],
+    "document": "/docs/PriceDox.pdf"
+  },
+  {
+    "id": 25,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "285000-295000",
+    "long_description_blocks": [
+      {
+        "title": "Type B – 3+1 Garden Floor",
+        "points": [
+          "Spacious ground unit with 3 bedrooms — great for families or rental markets.",
+          "Total usage: 117.5 m² (28.9 m² living, 15.35 m² kitchen, 3 bedrooms, 2 baths)",
+          "Available: B1-1 Garden – Contact for price; B1-2 Garden – £295,000, includes furniture, white goods"
+        ]
+      }
+    ],
+    "document": "/docs/PriceDox.pdf"
+  },
+  {
+    "id": 26,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "330000-360000",
+    "long_description_blocks": [
+      {
+        "title": "Type B – 3+1 Penthouse with Roof Terrace",
+        "points": [
+          "Ultimate penthouse with expansive roof terrace, ideal for luxury living with private Jacuzzi space and BBQ-ready entertainment zone.",
+          "Size breakdown: 28.90 m² living room, 15.35 m² kitchen, 18.33 m² parents' bedroom, 4.88 m² ensuite, 15.05 m² bedroom 2, 14.80 m² bedroom 3, 6.58 m² bathroom, 7.11 m² + 4.00 m² balconies, 2.50 m² hall, 103.89 m² roof terrace.",
+          "Total usage: 221.40 m² (117.50 m² closed area)",
+          "Available: B1-3 / B1-4 Penthouse – Contact for price"
         ]
       }
     ],

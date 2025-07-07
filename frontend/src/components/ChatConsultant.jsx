@@ -149,7 +149,7 @@ const ChatConsultant = () => {
         <button
           key={idx}
           onClick={() => onSelect(option)}
-          className="bg-brand-seafoam hover:bg-brand-mint text-black font-medium px-4 py-2 rounded transition"
+          className="bg-brand-mint hover:bg-brand-seafoam text-black font-medium px-4 py-2 rounded transition backdrop-blur-sm shadow border border-brand-seafoam"
         >
           {option}
         </button>
