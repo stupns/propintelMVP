@@ -273,13 +273,18 @@ const ChatConsultant = () => {
               const strEq = (a, b) =>
                 (a || '').toLowerCase().trim() === (b || '').toLowerCase().trim();
 
-              const price = parseInt((property.price || '').replace(/[$,]/g, ''), 10) || 0;
+              let price = 0;
+              if (typeof property.price === 'string' && property.price.includes('-')) {
+                const [minStr, maxStr] = property.price.split('-').map((v) => v.replace(/[$,]/g, '').trim());
+                price = (parseInt(minStr, 10) + parseInt(maxStr, 10)) / 2; // average of the range
+              } else {
+                price = parseInt((property.price || '').toString().replace(/[$,]/g, ''), 10) || 0;
+              }
 
               const matchesCountry = !country || strEq(property.country, country);
               const matchesCity = !city || strEq(property.city, city);
               const matchesType = !type || strEq(property.property_type, type);
 
-              // Amenities logic: match if property has ALL of the selected amenities
               let matchesAmenities = true;
               if (selectedAmenities.length > 0) {
                 const lowerAmenities = (property.amenities || []).map((a) => a.toLowerCase());

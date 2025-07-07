@@ -25,6 +25,46 @@
     ],
     "price": "950000",
     "long_description": "<h3>Overview</h3>\n<p>Located in the exclusive Bellapais area, this high-end development features only 12 bespoke Type A villas — each offering:</p>\n<ul>\n  <li>4 en-suite bedrooms, 4 bathrooms, and 252 m² of elegant living space</li>\n  <li>Sits on a generous 500 m² plot plus an additional 200 m² landscaped area</li>\n</ul>\n<h3>Unique Selling Points</h3>\n<ul>\n  <li>Panoramic Sea & Mountain Views</li>\n  <li>Private Outdoor Oasis with cinema, BBQ, garden, pool</li>\n  <li>Smart Infrastructure with gated entry and garage</li>\n</ul>\n<h3>Interior Features</h3>\n<ul>\n  <li>Premium finishes: 60x120 tiles, laminate bedrooms</li>\n  <li>Double-sided fireplace, LED lighting, smart wiring</li>\n  <li>Central VRF HVAC, underfloor heating, solar system</li>\n</ul>\n<h3>Energy & Utilities</h3>\n<ul>\n  <li>Full insulation, 8m³ water tank, solar booster</li>\n  <li>Backup generator, EV-charging ready</li>\n</ul>\n<h3>Extras & Location</h3>\n<ul>\n  <li>Optional basement (gym, cinema, cellar)</li>\n  <li>2–5 min from Bellapais Abbey, Kyrenia Harbour</li>\n  <li>~40 min Ercan / ~75 min Larnaca Airport</li>\n</ul>",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Located in the exclusive Bellapais area, this high-end development features only 12 bespoke Type A villas.",
+          "Each offers 4 en-suite bedrooms, 4 bathrooms, and 252 m² of elegant living space on a 500 m² plot + 200 m² landscaped area."
+        ]
+      },
+      {
+        "title": "Unique Selling Points",
+        "points": [
+          "Panoramic Sea & Mountain Views",
+          "Private Outdoor Oasis with cinema, BBQ, garden, pool",
+          "Smart Infrastructure with gated entry and garage"
+        ]
+      },
+      {
+        "title": "Interior Features",
+        "points": [
+          "Premium finishes: 60x120 tiles, laminate bedrooms",
+          "Double-sided fireplace, LED lighting, smart wiring",
+          "Central VRF HVAC, underfloor heating, solar system"
+        ]
+      },
+      {
+        "title": "Energy & Utilities",
+        "points": [
+          "Full insulation, 8m³ water tank, solar booster",
+          "Backup generator, EV-charging ready"
+        ]
+      },
+      {
+        "title": "Extras & Location",
+        "points": [
+          "Optional basement (gym, cinema, cellar)",
+          "2–5 min from Bellapais Abbey, Kyrenia Harbour",
+          "~40 min Ercan / ~75 min Larnaca Airport"
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
@@ -53,12 +93,57 @@
       "Beach"
     ],
     "price": "750000",
-    "long_description": "<h3>Overview</h3>\n<p>Villa Type B offers 212 m² of thoughtfully designed living space — a refined yet more compact version of Type A.</p>\n<ul>\n  <li>4 bedrooms, 4 bathrooms on a 500 m² plot + 200 m² landscaping</li>\n</ul>\n<h3>Outdoor & Garden</h3>\n<ul>\n  <li>Private pool, garden cinema, fireplace lounge</li>\n  <li>BBQ area with sink, ambient lighting, garage</li>\n  <li>Smart gate with license-plate recognition</li>\n</ul>\n<h3>Interior Highlights</h3>\n<ul>\n  <li>Double-sided fireplace, 4 en-suite bedrooms</li>\n  <li>VRF air-conditioning, solar-ready infrastructure</li>\n  <li>Premium 60×120 tiles, laminate, LED lighting</li>\n  <li>Full smart wiring, pantry, laundry</li>\n</ul>\n<h3>Energy & Infrastructure</h3>\n<ul>\n  <li>Roof/wall/floor insulation, water booster</li>\n  <li>8 ton tank, solar collector with heat pump</li>\n  <li>Backup generator, EV charging ready</li>\n</ul>\n<h3>Location & Lifestyle</h3>\n<ul>\n  <li>2–3 min to Bellapais, 5 min Kyrenia Castle</li>\n  <li>15–20 min to vineyards and golf</li>\n  <li>~40 min Ercan / ~75 min Larnaca Airport</li>\n</ul>",
-    "document": "/docs/PriceDox.pdf"
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Villa Type B offers 212 m² of thoughtfully designed living space — a refined yet more compact version of Type A.",
+          "4 bedrooms, 4 bathrooms on a 500 m² plot + 200 m² landscaping"
+        ]
+      },
+      {
+        "title": "Outdoor & Garden",
+        "points": [
+          "Private pool, garden cinema, fireplace lounge",
+          "BBQ area with sink, ambient lighting, garage",
+          "Smart gate with license-plate recognition"
+        ]
+      },
+      {
+        "title": "Interior Highlights",
+        "points": [
+          "Double-sided fireplace, 4 en-suite bedrooms",
+          "VRF air-conditioning, solar-ready infrastructure",
+          "Premium 60×120 tiles, laminate, LED lighting",
+          "Full smart wiring, pantry, laundry"
+        ]
+      },
+      {
+        "title": "Energy & Infrastructure",
+        "points": [
+          "Roof/wall/floor insulation, water booster",
+          "8 ton tank, solar collector with heat pump",
+          "Backup generator, EV charging ready"
+        ]
+      },
+      {
+        "title": "Location & Lifestyle",
+        "points": [
+          "2–3 min to Bellapais, 5 min Kyrenia Castle",
+          "15–20 min to vineyards and golf",
+          "~40 min Ercan / ~75 min Larnaca Airport"
+        ]
+      }
+    ],
+   "document": "/docs/PriceDox.pdf"
   },
   {
     "id": 3,
-    "image": "/images/property_3.jpg",
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
     "country": "Cyprus",
     "city": "Esentepe",
     "property_type": "Apartment",
@@ -72,12 +157,45 @@
       "Beach"
     ],
     "price": "150000-1000000",
-    "long_description": "Democratic board arm four student generation. Partner term get south economic example with crime. Product account itself number assume most. Left center these probably inside own.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "A modern apartment unit located in Esentepe, designed for convenience and leisure.",
+          "Offers flexibility for investment or personal living with open-concept interior."
+        ]
+      },
+      {
+        "title": "Property Details",
+        "points": [
+          "1–2 bedrooms options with stylish bathrooms",
+          "Open kitchen + living area, smart wiring and lighting",
+          "Panoramic balcony or terrace for outdoor enjoyment"
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to beach and swimming pool",
+          "24/7 on-site security",
+          "Fitness studio, parking and eFoil Activity Center nearby"
+        ]
+      },
+      {
+        "title": "Pricing & Extras",
+        "points": [
+          "Flexible pricing: from £150,000 up to £1,000,000 depending on unit",
+          "Documents and additional specs available upon request"
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
     "id": 4,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Villa",
@@ -93,7 +211,9 @@
   },
   {
     "id": 5,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Kyrenia (Girne)",
     "property_type": "Apartment",
@@ -103,6 +223,37 @@
     ],
     "price": "250001",
     "long_description": "Child throw room tonight. Field what five report contain help. None again hope agreement unit. Example form suffer live lot day too.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Modern apartment unit designed for comfort and functionality.",
+          "Ideal for both residential living and investment opportunities."
+        ]
+      },
+      {
+        "title": "Interior & Layout",
+        "points": [
+          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
+          "Open-plan kitchen and living area with modern fittings.",
+          "Access to private balcony or terrace."
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
+          "On-site security and dedicated parking."
+        ]
+      },
+      {
+        "title": "Pricing & Documentation",
+        "points": [
+          "Pricing varies by unit — contact for current availability.",
+          "Pricing documents available for download."
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
@@ -128,7 +279,9 @@
   },
   {
     "id": 7,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Apartment",
@@ -139,11 +292,44 @@
     ],
     "price": "210000",
     "long_description": "Leader wife church song husband wonder. Would film trial up. Region economic generation inside truth. Night how tell husband vote yeah or. Firm sing happy site.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Modern apartment unit designed for comfort and functionality.",
+          "Ideal for both residential living and investment opportunities."
+        ]
+      },
+      {
+        "title": "Interior & Layout",
+        "points": [
+          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
+          "Open-plan kitchen and living area with modern fittings.",
+          "Access to private balcony or terrace."
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
+          "On-site security and dedicated parking."
+        ]
+      },
+      {
+        "title": "Pricing & Documentation",
+        "points": [
+          "Pricing varies by unit — contact for current availability.",
+          "Pricing documents available for download."
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
     "id": 8,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Villa",
@@ -160,7 +346,9 @@
   },
   {
     "id": 9,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Villa",
@@ -176,7 +364,9 @@
   },
   {
     "id": 10,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Apartment",
@@ -189,11 +379,44 @@
     ],
     "price": "920000",
     "long_description": "Life hour dream body positive room. End money property feeling product class. Cut middle necessary particular. Recent travel board decision. Mind each main much Republican kind gas which.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Modern apartment unit designed for comfort and functionality.",
+          "Ideal for both residential living and investment opportunities."
+        ]
+      },
+      {
+        "title": "Interior & Layout",
+        "points": [
+          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
+          "Open-plan kitchen and living area with modern fittings.",
+          "Access to private balcony or terrace."
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
+          "On-site security and dedicated parking."
+        ]
+      },
+      {
+        "title": "Pricing & Documentation",
+        "points": [
+          "Pricing varies by unit — contact for current availability.",
+          "Pricing documents available for download."
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
     "id": 11,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Villa",
@@ -208,7 +431,9 @@
   },
   {
     "id": 12,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Villa",
@@ -225,7 +450,9 @@
   },
   {
     "id": 13,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Esentepe",
     "property_type": "Apartment",
@@ -237,11 +464,44 @@
     ],
     "price": "490000",
     "long_description": "Market ok cultural direction same fine significant. None major successful station. Black century support benefit film standard health so. Own indicate there region everyone family. Process stand strategy often under.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Modern apartment unit designed for comfort and functionality.",
+          "Ideal for both residential living and investment opportunities."
+        ]
+      },
+      {
+        "title": "Interior & Layout",
+        "points": [
+          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
+          "Open-plan kitchen and living area with modern fittings.",
+          "Access to private balcony or terrace."
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
+          "On-site security and dedicated parking."
+        ]
+      },
+      {
+        "title": "Pricing & Documentation",
+        "points": [
+          "Pricing varies by unit — contact for current availability.",
+          "Pricing documents available for download."
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
     "id": 14,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Esentepe",
     "property_type": "Apartment",
@@ -251,11 +511,44 @@
     ],
     "price": "540000",
     "long_description": "Speak goal military lawyer all economy so. Them close quality happen. Management vote newspaper force read. Nature item agreement too cold.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Modern apartment unit designed for comfort and functionality.",
+          "Ideal for both residential living and investment opportunities."
+        ]
+      },
+      {
+        "title": "Interior & Layout",
+        "points": [
+          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
+          "Open-plan kitchen and living area with modern fittings.",
+          "Access to private balcony or terrace."
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
+          "On-site security and dedicated parking."
+        ]
+      },
+      {
+        "title": "Pricing & Documentation",
+        "points": [
+          "Pricing varies by unit — contact for current availability.",
+          "Pricing documents available for download."
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   },
   {
     "id": 15,
-    "image": "/images/property_1.jpg",
+    "images": [
+      "/images/property_1.jpg"
+    ],
     "country": "Cyprus",
     "city": "Lapta",
     "property_type": "Apartment",
@@ -267,6 +560,37 @@
     ],
     "price": "245000",
     "long_description": "Particularly kitchen top wall take. Other already figure if who. Chance wear kitchen later age.",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Modern apartment unit designed for comfort and functionality.",
+          "Ideal for both residential living and investment opportunities."
+        ]
+      },
+      {
+        "title": "Interior & Layout",
+        "points": [
+          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
+          "Open-plan kitchen and living area with modern fittings.",
+          "Access to private balcony or terrace."
+        ]
+      },
+      {
+        "title": "Community Features",
+        "points": [
+          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
+          "On-site security and dedicated parking."
+        ]
+      },
+      {
+        "title": "Pricing & Documentation",
+        "points": [
+          "Pricing varies by unit — contact for current availability.",
+          "Pricing documents available for download."
+        ]
+      }
+    ],
     "document": "/docs/PriceDox.pdf"
   }
 ]

@@ -61,13 +61,32 @@ const SuggestedPropertiesSection = ({properties = []}) => {
                                     </div>
                                 </div>
                                 <h3 className="text-2xl font-bold text-emerald-400">{property.city || '—'}, {property.country || '—'}</h3>
-                                <div className="text-white text-sm space-y-4 leading-relaxed">
+                                {Array.isArray(property.long_description_blocks) ? (
+                                    <div className="text-white text-sm space-y-4 leading-relaxed">
+                                        {property.long_description_blocks.map((block, idx) => (
+                                            <div key={idx}>
+                                                {block.title && (
+                                                    <h3 className="text-lg font-semibold text-brand-mint mt-4 mb-2">
+                                                        {block.title}
+                                                    </h3>
+                                                )}
+                                                {block.points && Array.isArray(block.points) && (
+                                                    <ul className="list-disc ml-5 space-y-1">
+                                                        {block.points.map((point, i) => (
+                                                            <li key={i}>{point}</li>
+                                                        ))}
+                                                    </ul>
+                                                )}
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : property.long_description ? (
                                     <div
-                                        className="[&amp;h3]:text-lg [&amp;h3]:font-semibold [&amp;h3]:text-brand-mint [&amp;h3]:mt-4 [&amp;h3]:mb-2
-                                               [&amp;ul]:list-disc [&amp;ul]:ml-5 [&amp;ul]:space-y-1 [&amp;p]:mb-2"
-                                        dangerouslySetInnerHTML={{__html: property.long_description}}
+                                        className="[&h3]:text-lg [&h3]:font-semibold [&h3]:text-brand-mint [&h3]:mt-4 [&h3]:mb-2
+                                               [&ul]:list-disc [&ul]:ml-5 [&ul]:space-y-1 [&p]:mb-2 text-white text-sm leading-relaxed"
+                                        dangerouslySetInnerHTML={{ __html: property.long_description }}
                                     />
-                                </div>
+                                ) : null}
                                 <div className="flex flex-col space-y-2">
                                     <a
                                         href={property.document}
