@@ -8,7 +8,6 @@
       "/images/villa_A/property_4.jpg",
       "/images/villa_A/property_5.jpg",
       "/images/villa_A/property_6.jpg",
-      "/images/villa_A/property_7.jpg",
       "/images/villa_A/property_8.jpg"
     ],
     "country": "Cyprus",
@@ -594,52 +593,6 @@
     ],
     "price": "490000",
     "long_description": "Market ok cultural direction same fine significant. None major successful station. Black century support benefit film standard health so. Own indicate there region everyone family. Process stand strategy often under.",
-    "long_description_blocks": [
-      {
-        "title": "Overview",
-        "points": [
-          "Modern apartment unit designed for comfort and functionality.",
-          "Ideal for both residential living and investment opportunities."
-        ]
-      },
-      {
-        "title": "Interior & Layout",
-        "points": [
-          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
-          "Open-plan kitchen and living area with modern fittings.",
-          "Access to private balcony or terrace."
-        ]
-      },
-      {
-        "title": "Community Features",
-        "points": [
-          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
-          "On-site security and dedicated parking."
-        ]
-      },
-      {
-        "title": "Pricing & Documentation",
-        "points": [
-          "Pricing varies by unit — contact for current availability.",
-          "Pricing documents available for download."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "images": [
-      "/images/property_1.jpg"
-    ],
-    "country": "Cyprus",
-    "city": "Esentepe",
-    "property_type": "Apartment",
-    "amenities": [
-      "Parking",
-      "24/7 Security"
-    ],
-    "price": "540000",
-    "long_description": "Speak goal military lawyer all economy so. Them close quality happen. Management vote newspaper force read. Nature item agreement too cold.",
     "long_description_blocks": [
       {
         "title": "Overview",

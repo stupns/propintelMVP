@@ -1,8 +1,10 @@
 import React from 'react';
+import { useState } from 'react';
 import ChatConsultant from './ChatConsultant';
 import HeaderSection from './HeaderSection';
 
 const LandingPage = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div
       className="relative text-white bg-cover bg-center "
@@ -43,12 +45,12 @@ const LandingPage = () => {
             >
               Test the Demo
             </a>
-            <a
-              href="#early-access"
+            <button
+              onClick={() => setShowModal(true)}
               className="px-6 py-3 rounded border border-white text-white hover:bg-white hover:text-black transition"
             >
               Sign Up for Early Access
-            </a>
+            </button>
           </div>
         </div>
       </section>
@@ -76,11 +78,51 @@ const LandingPage = () => {
           Be the first to experience smarter property consulting.
         </p>
         <button
+          onClick={() => setShowModal(true)}
           className="px-6 py-3 text-sm font-medium bg-gradient-to-r from-green-400 to-emerald-500 text-black rounded hover:opacity-90 transition"
         >
-          Join Waitlist
+          Sign Up for Early Access
         </button>
       </section>
+      {showModal && (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-70 flex items-center justify-center">
+          <div className="bg-[#111] border border-emerald-400 rounded-lg p-8 w-[90%] max-w-md text-white relative">
+            <h2 className="text-xl font-semibold mb-4 text-emerald-300">Join Early Access</h2>
+            <form className="space-y-4">
+              <input
+                type="text"
+                placeholder="Full Name"
+                className="w-full px-4 py-2 bg-black border border-gray-700 rounded text-white placeholder-gray-400"
+              />
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full px-4 py-2 bg-black border border-gray-700 rounded text-white placeholder-gray-400"
+              />
+              <textarea
+                placeholder="Why are you interested?"
+                className="w-full px-4 py-2 bg-black border border-gray-700 rounded text-white placeholder-gray-400"
+                rows="4"
+              ></textarea>
+              <div className="flex justify-end gap-2 pt-2">
+                <button
+                  type="button"
+                  onClick={() => setShowModal(false)}
+                  className="px-4 py-2 bg-gray-600 hover:bg-gray-500 rounded"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold rounded"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
