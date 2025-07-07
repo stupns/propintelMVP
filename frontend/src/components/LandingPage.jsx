@@ -13,14 +13,14 @@ const LandingPage = () => {
       <HeaderSection />
 
       {/* Hero Section with logo and heading */}
-      <section className="relative min-h-[90vh] flex flex-col items-center justify-center px-6 py-24 text-center">
+      <section className="relative flex flex-col items-center justify-center px-6 text-center pt-40 md:py-24">
         <div className="absolute inset-0 bg-black bg-opacity-40 z-0 " />
 
-        <div className="relative z-10 flex flex-col items-center  m-[10%_0]">
+        <div className="relative z-10 flex flex-col items-center mt-24 mb-10">
           <img
             src="/images/logo-brand.png"
             alt="Logo"
-            className="w-3/4 h-auto mb-6 sm:w-1/2"
+            className="w-full sm:w-1/2 h-auto mb-6 "
           />
           {/*<p*/}
           {/*  className="italic text-center text-white/70 text-lg md:text-xl font-light mb-10"*/}
@@ -69,7 +69,7 @@ const LandingPage = () => {
       {/* Early Access секція */}
       <section
         id="early-access"
-        className="relative z-10 py-24 px-6 bg-rich-black text-center"
+        className="relative z-10 pt-16 md:pt-24 pb-16 px-6 bg-rich-black text-center"
       >
         <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-amber-200 via-green-200 to-emerald-400">
           Get Early Access
