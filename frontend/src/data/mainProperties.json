@@ -853,5 +853,71 @@
         ]
       }
     ]
+  },
+  {
+    "id": 2,
+    "images": [
+      "/images/villa_B/property_1.jpg",
+      "/images/villa_B/property_2.jpg",
+      "/images/villa_B/property_3.jpg",
+      "/images/villa_B/property_4.jpg",
+      "/images/villa_B/property_6.jpg",
+      "/images/villa_B/property_8.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Villa",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "110000",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Villa Type B offers 212 m² of thoughtfully designed living space — a refined yet more compact version of Type A.",
+          "4 bedrooms, 4 bathrooms on a 500 m² plot + 200 m² landscaping"
+        ]
+      },
+      {
+        "title": "Outdoor & Garden",
+        "points": [
+          "Private pool, garden cinema, fireplace lounge",
+          "BBQ area with sink, ambient lighting, garage",
+          "Smart gate with license-plate recognition"
+        ]
+      },
+      {
+        "title": "Interior Highlights",
+        "points": [
+          "Double-sided fireplace, 4 en-suite bedrooms",
+          "VRF air-conditioning, solar-ready infrastructure",
+          "Premium 60×120 tiles, laminate, LED lighting",
+          "Full smart wiring, pantry, laundry"
+        ]
+      },
+      {
+        "title": "Energy & Infrastructure",
+        "points": [
+          "Roof/wall/floor insulation, water booster",
+          "8 ton tank, solar collector with heat pump",
+          "Backup generator, EV charging ready"
+        ]
+      },
+      {
+        "title": "Location & Lifestyle",
+        "points": [
+          "2–3 min to Bellapais, 5 min Kyrenia Castle",
+          "15–20 min to vineyards and golf",
+          "~40 min Ercan / ~75 min Larnaca Airport"
+        ]
+      }
+    ]
   }
 ]
