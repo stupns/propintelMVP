@@ -367,52 +367,6 @@
     "long_description": "Space area according account. Born our truth say sing under. Director begin man among every evidence fast."
   },
   {
-    "id": 5,
-    "images": [
-      "/images/property_1.jpg"
-    ],
-    "country": "Cyprus",
-    "city": "Kyrenia (Girne)",
-    "property_type": "Apartment",
-    "amenities": [
-      "Nearby Shop",
-      "24/7 Security"
-    ],
-    "price": "250001",
-    "long_description": "Child throw room tonight. Field what five report contain help. None again hope agreement unit. Example form suffer live lot day too.",
-    "long_description_blocks": [
-      {
-        "title": "Overview",
-        "points": [
-          "Modern apartment unit designed for comfort and functionality.",
-          "Ideal for both residential living and investment opportunities."
-        ]
-      },
-      {
-        "title": "Interior & Layout",
-        "points": [
-          "Includes 1 or 2 bedrooms with contemporary bathrooms.",
-          "Open-plan kitchen and living area with modern fittings.",
-          "Access to private balcony or terrace."
-        ]
-      },
-      {
-        "title": "Community Features",
-        "points": [
-          "Access to amenities such as fitness studio, swimming pool, and nearby shops.",
-          "On-site security and dedicated parking."
-        ]
-      },
-      {
-        "title": "Pricing & Documentation",
-        "points": [
-          "Pricing varies by unit — contact for current availability.",
-          "Pricing documents available for download."
-        ]
-      }
-    ]
-  },
-  {
     "id": 7,
     "images": [
       "/images/property_1.jpg"
