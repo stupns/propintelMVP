@@ -672,5 +672,200 @@
         ]
       }
     ]
+  },
+  {
+    "id": 30,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Kyrenia (Girne)",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "100000-180000",
+    "long_description_blocks": [
+      {
+        "title": "Type B – 3+1 Penthouse with Roof Terrace",
+        "points": [
+          "Ultimate penthouse with expansive roof terrace, ideal for luxury living with private Jacuzzi space and BBQ-ready entertainment zone.",
+          "Size breakdown: 28.90 m² living room, 15.35 m² kitchen, 18.33 m² parents' bedroom, 4.88 m² ensuite, 15.05 m² bedroom 2, 14.80 m² bedroom 3, 6.58 m² bathroom, 7.11 m² + 4.00 m² balconies, 2.50 m² hall, 103.89 m² roof terrace.",
+          "Total usage: 221.40 m² (117.50 m² closed area)",
+          "Available: B1-3 / B1-4 Penthouse – Contact for price"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Kyrenia (Girne)",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "254000-650000",
+    "long_description_blocks": [
+      {
+        "title": "Type B – 3+1 Penthouse with Roof Terrace",
+        "points": [
+          "Ultimate penthouse with expansive roof terrace, ideal for luxury living with private Jacuzzi space and BBQ-ready entertainment zone.",
+          "Size breakdown: 28.90 m² living room, 15.35 m² kitchen, 18.33 m² parents' bedroom, 4.88 m² ensuite, 15.05 m² bedroom 2, 14.80 m² bedroom 3, 6.58 m² bathroom, 7.11 m² + 4.00 m² balconies, 2.50 m² hall, 103.89 m² roof terrace.",
+          "Total usage: 221.40 m² (117.50 m² closed area)",
+          "Available: B1-3 / B1-4 Penthouse – Contact for price"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "images": [
+      "/images/apartment_3/property_1.jpg",
+      "/images/apartment_3/property_2.jpg",
+      "/images/apartment_3/property_3.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Kyrenia (Girne)",
+    "property_type": "Apartment",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "756000-950000",
+    "long_description_blocks": [
+      {
+        "title": "Type B – 3+1 Penthouse with Roof Terrace",
+        "points": [
+          "Ultimate penthouse with expansive roof terrace, ideal for luxury living with private Jacuzzi space and BBQ-ready entertainment zone.",
+          "Size breakdown: 28.90 m² living room, 15.35 m² kitchen, 18.33 m² parents' bedroom, 4.88 m² ensuite, 15.05 m² bedroom 2, 14.80 m² bedroom 3, 6.58 m² bathroom, 7.11 m² + 4.00 m² balconies, 2.50 m² hall, 103.89 m² roof terrace.",
+          "Total usage: 221.40 m² (117.50 m² closed area)",
+          "Available: B1-3 / B1-4 Penthouse – Contact for price"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "images": [
+      "/images/villa_B/property_1.jpg",
+      "/images/villa_B/property_2.jpg",
+      "/images/villa_B/property_3.jpg",
+      "/images/villa_B/property_4.jpg",
+      "/images/villa_B/property_6.jpg",
+      "/images/villa_B/property_8.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Villa",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "1000000",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Villa Type B offers 212 m² of thoughtfully designed living space — a refined yet more compact version of Type A.",
+          "4 bedrooms, 4 bathrooms on a 500 m² plot + 200 m² landscaping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "images": [
+      "/images/villa_B/property_1.jpg",
+      "/images/villa_B/property_2.jpg",
+      "/images/villa_B/property_3.jpg",
+      "/images/villa_B/property_4.jpg",
+      "/images/villa_B/property_6.jpg",
+      "/images/villa_B/property_8.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Villa",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "285000",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Villa Type B offers 212 m² of thoughtfully designed living space — a refined yet more compact version of Type A.",
+          "4 bedrooms, 4 bathrooms on a 500 m² plot + 200 m² landscaping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "images": [
+      "/images/villa_B/property_1.jpg",
+      "/images/villa_B/property_2.jpg",
+      "/images/villa_B/property_3.jpg",
+      "/images/villa_B/property_4.jpg",
+      "/images/villa_B/property_6.jpg",
+      "/images/villa_B/property_8.jpg"
+    ],
+    "country": "Cyprus",
+    "city": "Esentepe",
+    "property_type": "Villa",
+    "amenities": [
+      "Fitness Studio",
+      "24/7 Security",
+      "Parking",
+      "eFoil Activity Center",
+      "Swimming Pool",
+      "Parking",
+      "Beach"
+    ],
+    "price": "850000",
+    "long_description_blocks": [
+      {
+        "title": "Overview",
+        "points": [
+          "Villa Type B offers 212 m² of thoughtfully designed living space — a refined yet more compact version of Type A.",
+          "4 bedrooms, 4 bathrooms on a 500 m² plot + 200 m² landscaping"
+        ]
+      }
+    ]
   }
 ]
